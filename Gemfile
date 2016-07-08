@@ -1,6 +1,11 @@
 source 'https://rubygems.org'
 ruby '2.2.3'
 
+
+# Gemfile
+gem 'cloudinary'
+gem 'carrierwave'
+
 gem 'rails', '4.2.4'
 gem 'puma'
 gem 'pg'
@@ -23,8 +28,8 @@ group :development, :test do
   gem 'pry-byebug'
   gem 'pry-rails'
   gem 'spring'
-  
-  
+
+
 end
 
 group :production do
