@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  mount Attachinary::Engine => "/attachinary" # Attachinary Stuff
   resources :products
   root to: 'pages#home'
   # The priority is based upon order of creation: first created -> highest priority.

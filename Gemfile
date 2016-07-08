@@ -5,6 +5,9 @@ ruby '2.2.3'
 # Gemfile
 gem 'cloudinary'
 gem 'carrierwave'
+gem "attachinary"
+gem "jquery-fileupload-rails"
+gem "coffee-rails"
 
 gem 'rails', '4.2.4'
 gem 'puma'
